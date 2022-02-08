@@ -2,12 +2,18 @@
 Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Navigation in Urban Canyons [paper link](TBD)
 
 
-
 Authors: Jie Yin, Danping Zou
+
+## Abstract:
+TBD
+
+
+
+
 
 ![](./figures/system_snapshot.png)
 
-**Sky-GVINS** is a TBD. The system framework  are adapted from [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). Our system contains the following features:
+**Sky-GVINS** is a TBD. The system framework is adapted from [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). Our system contains the following features:
 
 - TBD
 - TBD
@@ -45,3 +51,23 @@ cd Sky-GVINS_ws/
 catkin_make
 source /devel/setup.bash
 ```
+
+## 3. Run Sky-GVINS on demo
+Download our [GVINS-Dataset](TBD) and launch Sky-GVINS via:
+```
+roslaunch sky-gvins sky.launch
+```
+Open another terminal and launch the rviz by:
+```
+rviz -d Sky-GVINS_ws/src/GVINS/config/config.rviz
+```
+Then play the bag:
+```
+rosbag play bridge1.bag
+```
+
+## 4. Acknowledgements
+TBD
+
+## 5. Licence
+The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
