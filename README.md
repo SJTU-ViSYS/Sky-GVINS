@@ -1,12 +1,14 @@
 # Sky-GVINS
-Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Navigation in Urban Canyons [paper link](TBD)
+Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons [paper link](TBD)
 
 
 Authors: Jie Yin, Danping Zou
 
 ## Abstract:
-TBD
+Multi-sensor fusion is a new developing trend in the field of SLAM (Simultaneous Localization and Mapping) for higher accuracy and better robustness in highly diverse environments. Among them, SLAM systems integrating GNSS (Global Navigation Satellite Systems) are drawing increasing attention for a global and continuous localization solution. Nonetheless, in dense urban environments, these GNSS-SLAM systems will suffer from the NLOS measurements, which might lead to a sharp deterioration in location results. 
 
+In this paper, we segment the sky-pointing images to improve GNSS measurement reliability for more accurate position estimation. Based on a recent work called GVINS which integrates GNSS, images and IMU (Inertial Measurement Unit) information, we present Sky-GVINS: a sky-segmentation aided GNSS-Visual-Inertial system. In our work, we firstly back-projection satellites to the fish-eye sky image. And then we conduct sky segmentation tests with different algorithms, in which Otsu algorithm reports a high classification rate and calculation efficiency. Therefore, Otsu algorithm is adopted to segment the acquired image. After that, we filter satellites in non-sky regions in the position calculation part for better localization in urban canyons. We carried out long-term real-world experiments on campus. Results show our methods effectively improve the location accuracy both in open-sky and 
+dense urban environments. For the benefit of the research community, the source code and dataset in this work will be made public.
 
 
 
@@ -53,7 +55,7 @@ source /devel/setup.bash
 ```
 
 ## 3. Run Sky-GVINS on demo
-Download our [GVINS-Dataset](TBD) and launch Sky-GVINS via:
+Download our [Sky-GVINS-Dataset](TBD) and launch Sky-GVINS via:
 ```
 roslaunch sky-gvins sky.launch
 ```
