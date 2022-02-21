@@ -20,6 +20,7 @@ In this paper, we segment the sky-pointing image to improve GNSS measurement rel
 - We propose a robust SLAM system that can obtain accurate global state estimation robustly both in dense urban environments and open-sky regions, which outperforms other existing systems in real-world experiments. 
 - We present a large-scale sky segmentation dataset with manually marked labels and a multi-sensor SLAM dataset with accurate ground truth trajectories. We will make them public, facilitating tests of sky segmentation algorithms and GNSS/SLAM systems in urban canyons.
 
+
 **Video:**
 
 [![Sky-GVINS Video](fig/cover.png)](https://www.youtube.com/watch?v=XGGV9fB7raA)
@@ -77,24 +78,30 @@ rosbag play bridge1.bag
 
 Our sky segmentation datasets with mannually labeled GT are released in the following link [Sky-Seg(TBD)](TBD)
 
+<div align=center>
+<img src="fig/big.jpg" width="800px">
+
+</div>
+<p align="center">Figure 1. Results of Sky Segmentation and Back Projection. Images in the first row are grey-scale images after blurring. Images in the second row are after thresholding. Images in the third row are sky segmentation results, where green borders represent the border of sky regions and non-sky regions, red points represent LOS satellites, and yellow points represent NLOS satellites.</p>
+
 ### 5.2 Real-world Experiments
 
-We constructed a ground robot as shown in Figure 1. 
+We constructed a ground robot as shown in Figure 2. 
 
 <div align=center>
 <img src="fig/car.png" width="300px">
 
 </div>
-<p align="center">Figure 1. Acquisition Platform</p>
+<p align="center">Figure 2. Acquisition Platform</p>
 
 
-To fully evaluate our proposed system, we operated our robot cross on the Shanghai Jiao Tong University campus and simultaneously recorded experimental trajectories in various scenarios as shown in Figure 2.
+To fully evaluate our proposed system, we operated our robot cross on the Shanghai Jiao Tong University campus and simultaneously recorded experimental trajectories in various scenarios as shown in Figure 3.
 
 <div align=center>
-<img src="fig/scene.jpg" width="300px">
+<img src="fig/scene.jpg" width="600px">
 
 </div>
-<p align="center">Figure 2. Different Scenarios</p>
+<p align="center">Figure 3. Different Scenarios</p>
 
 ## 6. Acknowledgements
 TBD
