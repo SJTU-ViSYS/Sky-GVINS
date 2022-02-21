@@ -28,7 +28,7 @@ In this paper, we segment the sky-pointing image to improve GNSS measurement rel
 
 
 ##  Licence
-The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact [Jie Yin](https://github.com/sjtuyinjie) on 1195391308@qq.com for further communication.
+The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact the author on 1195391308@qq.com for further communication. If you like our works, welcome to follow [Jie Yin](https://github.com/sjtuyinjie) for following work!
 
 
 ## 1. Prerequisites
