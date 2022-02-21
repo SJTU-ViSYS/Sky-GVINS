@@ -68,7 +68,9 @@ Then play the bag:
 rosbag play bridge1.bag
 ```
 
-## 4. Acknowledgements
+## 4. Sky Segentation Dataset
+Our sky segmentation datasets with mannually labeled GT are released in the following link [Sky-Seg(TBD)](TBD)
+## 5. Acknowledgements
 TBD
 
 ## 5. Licence
