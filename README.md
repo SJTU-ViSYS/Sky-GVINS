@@ -22,7 +22,9 @@ dense urban environments. For the benefit of the research community, the source 
 
 **Video:**
 
-[![Sky-GVINS Video](https://www.youtube.com/watch?v=4K8UfTroaQo)
+[![Sky-GVINS Video](https://www.youtube.com/watch?v=XGGV9fB7raA)
+
+[![IMAGE ALT TEXT HERE](fig/cover.png)]
 
 ## 1. Prerequisites
 ### 1.1 C++11 Compiler
