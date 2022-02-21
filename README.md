@@ -2,7 +2,7 @@
 Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons [paper link(To be released)](TBD)
 
 
-Authors: Jie Yin, Tao Li, Wenxian Yu and Danping Zou
+Authors: [Jie Yin](https://github.com/sjtuyinjie), Tao Li, Wenxian Yu and Danping Zou
 
 ## Abstract:
 Multi-sensor fusion is a new developing trend in the field of SLAM (Simultaneous Localization and Mapping) for higher accuracy and better robustness in highly diverse environments. Among them, SLAM systems integrating GNSS (Global Navigation Satellite Systems) are drawing increasing attention for a global and continuous localization solution. Nonetheless, in dense urban environments, these GNSS-based SLAM systems will suffer from the NLOS (Non-Line-Of-Sight) measurements, which might lead to a sharp deterioration in location results. 
@@ -104,7 +104,7 @@ To fully evaluate our proposed system, we operated our robot cross on the Shangh
 <p align="center">Figure 3. Different Scenarios</p>
 
 ## 6. Acknowledgements
-TBD
+This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
 
 ## 7. Licence
-The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
+The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact [Jie Yin](https://github.com/sjtuyinjie) on 1195391308@qq.com for further communication.
