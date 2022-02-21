@@ -98,7 +98,7 @@ We constructed a ground robot as shown in Figure 2.
 To fully evaluate our proposed system, we operated our robot cross on the Shanghai Jiao Tong University campus and simultaneously recorded experimental trajectories in various scenarios as shown in Figure 3.
 
 <div align=center>
-<img src="fig/scene.jpg" width="600px">
+<img src="fig/scene.jpg" width="800px">
 
 </div>
 <p align="center">Figure 3. Different Scenarios</p>
