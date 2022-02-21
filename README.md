@@ -25,6 +25,12 @@ In this paper, we segment the sky-pointing image to improve GNSS measurement rel
 
 [![Sky-GVINS Video](fig/cover.png)](https://www.youtube.com/watch?v=XGGV9fB7raA)
 
+
+
+##  Licence
+The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact [Jie Yin](https://github.com/sjtuyinjie) on 1195391308@qq.com for further communication.
+
+
 ## 1. Prerequisites
 ### 1.1 C++11 Compiler
 This package requires some features of C++11.
@@ -106,5 +112,4 @@ To fully evaluate our proposed system, we operated our robot cross on the Shangh
 ## 6. Acknowledgements
 This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
 
-## 7. Licence
-The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact [Jie Yin](https://github.com/sjtuyinjie) on 1195391308@qq.com for further communication.
+
