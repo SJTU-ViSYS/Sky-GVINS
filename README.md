@@ -55,6 +55,7 @@ source /devel/setup.bash
 ```
 
 ## 3. Run Sky-GVINS on demo
+
 Download our [Sky-GVINS-Dataset(To be released)](TBD) and launch Sky-GVINS via:
 ```
 roslaunch sky-gvins sky.launch
@@ -68,10 +69,26 @@ Then play the bag:
 rosbag play bridge1.bag
 ```
 
-## 4. Sky Segentation Dataset
+
+
+## 5. Experiments
+
+### 5.1 Sky Segentation Test
+
 Our sky segmentation datasets with mannually labeled GT are released in the following link [Sky-Seg(TBD)](TBD)
-## 5. Acknowledgements
+
+### 5.2 Real-world Experiments
+
+We constructed a ground robot as shown in the figure below.
+
+<div align=center>
+<img src="fig/car.png" width="800px">
+
+</div>
+<p align="center">Figure 1. Acquisition Platform</p>
+
+## 6. Acknowledgements
 TBD
 
-## 5. Licence
+## 7. Licence
 The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
