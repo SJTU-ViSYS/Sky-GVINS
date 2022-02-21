@@ -79,13 +79,22 @@ Our sky segmentation datasets with mannually labeled GT are released in the foll
 
 ### 5.2 Real-world Experiments
 
-We constructed a ground robot as shown in the figure below.
+We constructed a ground robot as shown in Figure 1. 
 
 <div align=center>
-<img src="fig/car.png" width="800px">
+<img src="fig/car.png" width="300px">
 
 </div>
 <p align="center">Figure 1. Acquisition Platform</p>
+
+
+To fully evaluate our proposed system, we operated our robot cross on the Shanghai Jiao Tong University campus and simultaneously recorded experimental trajectories in various scenarios as shown in Figure 2.
+
+<div align=center>
+<img src="fig/scene.jpg" width="300px">
+
+</div>
+<p align="center">Figure 2. Different Scenarios</p>
 
 ## 6. Acknowledgements
 TBD
