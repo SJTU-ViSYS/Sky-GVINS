@@ -2,7 +2,7 @@
 Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons [paper link](TBD)
 
 
-Authors: Jie Yin, Danping Zou
+Authors: Jie Yin, Tao Li, Wenxian Yu and Danping Zou
 
 ## Abstract:
 Multi-sensor fusion is a new developing trend in the field of SLAM (Simultaneous Localization and Mapping) for higher accuracy and better robustness in highly diverse environments. Among them, SLAM systems integrating GNSS (Global Navigation Satellite Systems) are drawing increasing attention for a global and continuous localization solution. Nonetheless, in dense urban environments, these GNSS-based SLAM systems will suffer from the NLOS (Non-Line-Of-Sight) measurements, which might lead to a sharp deterioration in location results. 
@@ -12,9 +12,9 @@ In this paper, we segment the sky-pointing image to improve GNSS measurement rel
 
 
 
-![](./figures/system_snapshot.png)
 
-**Sky-GVINS** is a TBD. The system framework is adapted from [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). Our system contains the following features:
+
+**Sky-GVINS** is a a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons. The system framework is adapted from [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). Our system contains the following features:
 
 - We introduce a lightweight method that uses the global threshold algorithm on the sky-pointing images to separate LOS and NLOS signals. Our approach is efficient and effective, which can be easily extended to other GNSS-based systems.
 - We propose a robust SLAM system that can obtain accurate global state estimation robustly both in dense urban environments and open-sky regions, which outperforms other existing systems in real-world experiments. 
@@ -55,7 +55,7 @@ source /devel/setup.bash
 ```
 
 ## 3. Run Sky-GVINS on demo
-Download our [Sky-GVINS-Dataset](TBD) and launch Sky-GVINS via:
+Download our [Sky-GVINS-Dataset(To be released)](TBD) and launch Sky-GVINS via:
 ```
 roslaunch sky-gvins sky.launch
 ```
