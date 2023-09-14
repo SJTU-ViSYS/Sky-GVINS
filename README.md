@@ -26,60 +26,12 @@ In this paper, we segment the sky-pointing image to improve GNSS measurement rel
 
 
 
-##  Licence
-The source code is released under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. If you are interested in our project for commercial purposes, please contact the author on 1195391308@qq.com for further communication. If you like our works, welcome to follow [Jie Yin](https://github.com/sjtuyinjie) for following work!
-
-
-## 1. Prerequisites
-### 1.1 C++11 Compiler
-This package requires some features of C++11.
-
-### 1.2 ROS
-This package is developed under [ROS Melodic](http://wiki.ros.org/melodic) environment.
-
-### 1.3 Eigen
-Our code uses [Eigen 3.3.3](https://gitlab.com/libeigen/eigen/-/archive/3.3.3/eigen-3.3.3.zip) for matrix manipulation.
-
-### 1.4 Ceres
-We use [ceres](https://ceres-solver.googlesource.com/ceres-solver) 1.12.0 to solve the non-linear optimization problem.
-
-### 1.5 gnss_comm
-This package also requires [gnss_comm](https://github.com/HKUST-Aerial-Robotics/gnss_comm) for ROS message definitions and some utility functions. Follow [those instructions](https://github.com/HKUST-Aerial-Robotics/gnss_comm#2-build-gnss_comm-library) to build the *gnss_comm* package.
-
-## 2. Build Sky-GVINS
-Create your catkin workspace :
-```
-mkdir -p Sky-GVINS_ws/src
-cd Sky-GVINS_ws/src
-git clone https://github.com/SJTU-ViSYS/Sky-GVINS
-```
-Then build the package with:
-```
-cd Sky-GVINS_ws/
-catkin_make
-source /devel/setup.bash
-```
-
-## 3. Run Sky-GVINS on demo
-
-Download our [Sky-GVINS-Dataset(To be released)](TBD) and launch Sky-GVINS via:
-```
-roslaunch sky-gvins sky.launch
-```
-Open another terminal and launch the rviz by:
-```
-rviz -d Sky-GVINS_ws/src/GVINS/config/config.rviz
-```
-Then play the bag:
-```
-rosbag play bridge1.bag
-```
 
 
 
-## 5. Experiments
+##  Experiments
 
-### 5.1 Sky Segentation Test
+###  Sky Segentation Test
 
 Our sky segmentation datasets with mannually labeled GT are released in the following link [Sky-Seg(TBD)](TBD)
 
@@ -89,7 +41,7 @@ Our sky segmentation datasets with mannually labeled GT are released in the foll
 </div>
 <p align="center">Figure 1. Results of Sky Segmentation and Back Projection. Images in the first row are grey-scale images after blurring. Images in the second row are after thresholding. Images in the third row are sky segmentation results, where green borders represent the border of sky regions and non-sky regions, red points represent LOS satellites, and yellow points represent NLOS satellites.</p>
 
-### 5.2 Real-world Experiments
+###  Real-world Experiments
 
 We constructed a ground robot as shown in Figure 2. 
 
@@ -108,7 +60,7 @@ To fully evaluate our proposed system, we operated our robot cross on the Shangh
 </div>
 <p align="center">Figure 3. Different Scenarios</p>
 
-## 6. Acknowledgements
+##  Acknowledgements
 This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
 
 
