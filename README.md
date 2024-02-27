@@ -1,5 +1,5 @@
 # Sky-GVINS
-Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons [paper link(To be released)](TBD)
+Sky-GVINS: a Sky-segmentation Aided GNSS-Visual-Inertial System for Robust Navigation in Urban Canyons [paper link](https://doi.org/10.1080/10095020.2023.2191649 )
 
 
 
