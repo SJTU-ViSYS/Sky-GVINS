@@ -60,6 +60,19 @@ To fully evaluate our proposed system, we operated our robot cross on the Shangh
 </div>
 <p align="center">Figure 3. Different Scenarios</p>
 
+## License
+If this work is helpful for your research, please consider citing:
+~~~
+@article{yin2023sky,
+  title={Sky-GVINS: a sky-segmentation aided GNSS-Visual-Inertial system for robust navigation in urban canyons},
+  author={Yin, Jie and Li, Tao and Yin, Hao and Yu, Wenxian and Zou, Danping},
+  journal={Geo-spatial Information Science},
+  pages={1--11},
+  year={2023},
+  publisher={Taylor \& Francis}
+}
+~~~
+
 ##  Acknowledgements
 This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
 
